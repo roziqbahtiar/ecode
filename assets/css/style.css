@@ -1,0 +1,115 @@
+/* Stand Alone */
+.no-border {
+	border: none;
+}
+
+.no-radius {
+	border-radius: 0;
+}
+
+/* Navbar */
+.drop-form {
+	min-width: 250px;
+}
+
+.nav > li.dropdown-fw.open {
+	position: static;
+}
+
+.nav > li.dropdown-fw.open .dropdown-menu {
+	display:table;
+	width: 100%;
+	text-align: center;
+	left:0;
+	right:0;
+}
+
+.dropdown-fw .dropdown-menu>li {
+	display: table-cell;
+}
+
+/* Landing Page */
+.landing-page {
+	position: relative;
+	overflow: hidden;
+	background-position:100% 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.landing-page .bt-transparent {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#landing-page-parallax {
+	background: url('../img/parallax.jpg');
+	height: 100vh;
+}
+
+.landing-box-center {
+	position: absolute;
+	width: 500px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -250px;
+	text-align: center;
+	color: #FFF;
+}
+
+.landing-box-center h1 {
+	font-size: 3em;
+}
+
+.landing-box-center p,
+.landing-box-center a.btn {
+	font-size: 1.3em;
+}
+
+/* Learn */
+#learn {
+	height: 100vh;
+	padding-top: 70px;
+}
+
+#learn .title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#learn h1 {
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+#learn .thumbnail {
+	text-align: center;
+}
+
+#learn .thumbnail img {
+	width: 200px;
+	height: 200px;
+}
+
+#learn .content p {
+	text-align: justify;
+}
+
+/*== Dashboard ==*/
+.form-editor {
+	resize: none;
+}
+
+/* Profile */
+.widget-user .widget-user-header {
+	height: 220px;
+}
+
+.widget-user .widget-user-image {
+	top: 165px;
+}
+/*== End Dashboard ==*
